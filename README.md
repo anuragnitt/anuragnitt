@@ -1,4 +1,4 @@
-<img align="center" src="https://raw.githubusercontent.com/RemcoHalman/RemcoHalman/master/images/header_image.png" />
+<img align="center" src="https://raw.githubusercontent.com/anuragnitt/anuragnitt/master/images/header_image.png" />
 
 <h1 align="center"> <img height="40" width="40" alt="github" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" /> About Me </h1>
 
