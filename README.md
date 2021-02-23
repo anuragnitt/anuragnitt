@@ -2,11 +2,11 @@
 
 <h1 align="center"> <img height="40" width="40" alt="github" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" /> About Me </h1>
 
-- I am a Computer Science and Engineering sophomore at [NIT Tiruchirappalli](https://www.nitt.edu).
-- I am currently a 🛠️ System Administrator at [Delta Force](https://delta.nitt.edu).
+- I'm a Computer Science and Engineering sophomore at [NIT Tiruchirappalli](https://www.nitt.edu).
+- I'm currently a 🛠️ System Administrator at [Delta Force](https://delta.nitt.edu).
 - I'm currently learning _DSA_ and developing in _Flask_.
 - I'm a knowledge seeker & I love to learn new 💻 _Technologies_.
-- 👯 I’m looking for internships.
+- I’m looking for internships.
 
 <h2 align="center">🛠️ Languages & Frameworks</h2>
 
