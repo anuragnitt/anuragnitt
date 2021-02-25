@@ -1,0 +1,233 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.2 (16/9/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass[]{deedy-resume-openfont}
+\usepackage{fancyhdr}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+ 
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{}{Anurag Goyal}
+{ \urlstyle{same}\href{mailto:anuraggoyal.awr@gmail.com}{anuraggoyal.awr@gmail.com} | +91 63751 73313
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\subsection{NIT - Tiruchirappalli}
+\location{Tiruchirappalli, Tamil Nadu}
+\descript{B.Tech in Computer Science \\
+and Engineering}
+\location{Expected May 2023}
+\location{Cum. GPA: 8.16}
+\sectionsep
+
+\subsection{S.R. Public Sr. Sec. School}
+\location{Kota, Rajasthan}
+\descript{Science with Physical Education}
+\location{CBSE Std XII : 89.2\%}
+\sectionsep
+
+\subsection{St. Anselms Sr. Sec. School}
+\location{Alwar, Rajasthan}
+\location{CBSE Std X : 9.8 CGPA}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Links} 
+Github:// \href{https://github.com/anuragnitt}{\bf anuragnitt} \\
+LinkedIn://  \href{https://www.linkedin.com/in/anurag-goyal-b5884a1ab/}{\bf anurag-goyal}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\subsection{Programming}
+\location{LANGUAGES}
+C++ \textbullet{} Python \textbullet{} JavaScript \\
+UNIX Shell \textbullet{} PHP \textbullet{} C \\
+\location{FRAMEWORKS AND LIBRARIES}
+Pycryptodome \textbullet{} Flask \\
+\location{TOOLS}
+Git \textbullet{} Docker \textbullet{} MySQL \textbullet{} Apache
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     CERTIFICATIONS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Certifications}
+\subsection{Google Cloud Platform}
+A Google certified practical course on
+Deployment, Networking and Data Analysis
+on Google Cloud Platform.\newline
+\location{\href{https://www.qwiklabs.com/public_profiles/2e1928cc-a44e-4bcc-9b54-0de68d9b14d7}{GCP Skill Badges}}
+\location{\href{https://drive.google.com/file/d/1YGuBYzLVNAck5-LRyPsmowuu5hCkXTmN/view?usp=sharing}{Certificate}}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SOCIETIES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Societies}
+\subsection{Member At}
+\location{\href{https://delta.nitt.edu}{DELTA FORCE}}
+The official web team and \\
+programming club of NIT Trichy.\newline
+\subsection{Member At National \\
+Service Scheme}
+Organises social service based \\
+activities in and around \\
+Trichy, Tamil Nadu.
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PROJECTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Projects}
+\runsubsection{Pragyan Premiere League}
+\descript{| Private | Present}
+\vspace{\topsep}
+\begin{tightemize}
+\item An annual virtual cricket league in which matches are algorithmically simulated.
+\item Part of the team which worked on adding new features in the backend written in Golang.
+\item Part of the three person team which hosted and deployed the project through Docker engine.
+\item The app is annually launched to over 1400 registrants and played by users from 74 countries.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Pragyan Capture The Flag}
+\descript{| Private | Present}
+\begin{tightemize}
+\item An annual online jeopardy style cybersecurity event in which players attempt to exploit and attack an application or algorithm to retrieve the secret flag.
+\item Part of the two person team which designed cryptography challenges comprising of various cryptography techniques.
+\item The event is annually played by participants from many countries.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Trash Track}
+\descript{| \href{https://github.com/anuragnitt/trashTrack}{Project Link} | January 2021}
+\begin{tightemize}
+\item A realtime application which does geo-tracking of littered garbage, triggering alerts and mapping areas with high waste index.
+\item Built at Pragyan Hackathon 2021.
+\item Developed the backend, API (Flask) and integrated it with MySQL database.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{CLI based E-Mail client}
+\descript{| \href{https://github.com/anuragnitt/Mail}{Project Link} | August 2020}
+\begin{tightemize}
+\item A CLI based E-Mail client developed in Python.
+\item Application allows user to clone their GMail inbox to their device and send encrypted E-Mails with optional multimedia file attachments.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Crypto-Library}
+\descript{| \href{https://github.com/anuragnitt/Crypto-Library}{Project Link} | August 2020}
+\begin{tightemize}
+\item Implementations of DES, Triple DES and AES modes of encryption in Python.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Programmer Lyf Bot}
+\descript{| Private | January 2021}
+\begin{tightemize}
+\item A discord bot application which fetches informative and humorous content from Reddit and other popular public forums.
+\item Designed a module which uses Reddit's API to fetch posts whose frequency varied based on its category.
+\item The module is capable of separating text, multimedia and hyperlinks.
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     ACHIEVEMENTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Achievements} 
+\begin{tabular}{rll}
+2021         & Pragyan Hackathon Top 10 Finalists \\
+2019	     & JEE-Main AIR 1536 \\
+2019	     & JEE-Advanced AIR 5620 \\
+2015	     & NSTSE Gold Medalist (State Level)\\
+\end{tabular}
+\sectionsep
+
+\end{minipage} 
+\end{document}  \documentclass[]{article}
