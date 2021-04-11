@@ -46,4 +46,4 @@ ___
     <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=anuragnitt&langs_count=10&layout=compact&theme=blue-green" height="196px" />
 </a>
 
-<img align="center" src="images/watch_doge.png">
+[//]: # <img align="center" src="images/watch_doge.png">
