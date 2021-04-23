@@ -6,7 +6,7 @@
 - I'm currently a 🛠️ System Administrator at [Delta Force](https://delta.nitt.edu).
 - I'm currently learning _DSA_ and developing in _Flask_.
 - I'm a knowledge seeker & I love to learn new 💻 _Technologies_.
-- I’m looking for internships.
+- Here is my [resume](./resume/resume.pdf).
 
 <h2 align="center">🛠️ Languages & Frameworks</h2>
 
